@@ -1,0 +1,54 @@
+ body{
+     background-color: #3e99fa;
+ }
+
+ .container {
+     margin-top: 5em;
+ }
+
+.container h1,h4,h6,p,a{
+    align-items: center;
+    color: #fff;
+}
+
+ .container h1{
+     font-size: 4em;
+ }
+
+ .container h6{
+     font-size: 1.5em;
+ }
+
+ .container p{
+     font-size: 1.5em;
+     line-height: 1.5;
+     margin-top: 10%;
+ }
+
+ footer .Footer_Items{
+     margin-top: 4%;
+     color: #fff;
+     display: grid;
+     grid-template-columns: 38.3% 40.3% 33.3%;
+ }
+
+
+ @media only screen and  (max-width: 375px){
+     body{
+         background-color: #3e99fa;
+     }
+
+     .container h1{
+         font-size: 4em;
+     }
+
+     .container p{
+         font-size: 1em;
+         line-height: 1em;
+         margin-top: 10%;
+     }
+
+     .container h6{
+         font-size: 1em;
+     }
+ }
